@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import LocationList from './components/LocationList';
 import LocationMap from './components/LocationMap'; // Child component
-import locationIcon from './assets/images/location-icon.png'; // child component
+import locationIcon from './assets/images/brand-logo.png'; // child component
 
 class App extends Component { // Parent component
   constructor(props) {
