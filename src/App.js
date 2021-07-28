@@ -29,8 +29,8 @@ class App extends Component { // Parent component
         <nav className="navbar navbar-light navbar-bg">
           <div className="container-fluid">
             <div className="navbar-header">
-              <img src={locationIcon} alt="" width="30" height="20" className="d-inline-block align-text-top" />
-              <a className="navbar-brand" href="/">Location Finder</a>
+              <img src={locationIcon} alt="" className="d-inline-block align-text-bottom" />
+              <a className="navbar-brand" href="/"> Location Finder</a>
             </div>
           </div>
         </nav>
