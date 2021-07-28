@@ -25,7 +25,7 @@ class LocationList extends Component {
             <div className="locationFinder">
                 <div className="form-group">
                     <label htmlFor="locationList">Cities</label>
-                    <select className="form-control" value={selectedCity} onChange={(event) => this.getLocationData(event)} id="locationList">
+                    <select className="form-select" value={selectedCity} onChange={(event) => this.getLocationData(event)} id="locationList">
                         <option value=''>--Select City--</option>
                         {cities.map((item) => {
                             return (
